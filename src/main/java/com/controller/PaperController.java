@@ -55,4 +55,5 @@ public class PaperController {
         model.addAttribute("paper",paper);
         return "redirect:/paper/allPaper";
     }
+
 }
