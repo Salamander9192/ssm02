@@ -1,0 +1,17 @@
+.panel-heading{
+    text-align: center;
+}
+.panel{
+  background-color: transparent !important;
+}
+.panel-body {
+   background-color:rgba(255,255,255,0.5) !important;  
+}
+.panel-default > .panel-heading {
+  background-color:rgba(245,245,245,0.8) !important;
+}
+body {
+    /*background-color: #f8f8f8;*/    
+    background:url(../res/back_shebao.jpg) #5d7895 no-repeat 50% 0;
+    background-size:auto auto;
+}

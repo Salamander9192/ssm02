@@ -41,5 +41,8 @@
 <h3>
     <a href="${path }/paper/allPaper">点击进入管理页面</a>
 </h3>
+<h3>
+    <a href="${path }/login">点击进入管理页面</a>
+</h3>
 </body>
 </html>

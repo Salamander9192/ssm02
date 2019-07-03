@@ -1,0 +1,24 @@
+{
+  "sProcessing": "处理中...",
+  "sLengthMenu": "每页显示_MENU_条记录",
+  "sZeroRecords": "无相关数据",
+  "sInfo": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+  "sInfoEmpty": "显示第 0 至 0 项结果，共 0 项",
+  "sInfoFiltered": "(从_MAX_条记录中检索)",
+  "sInfoPostFix": "",
+  "sSearch": "过滤:",
+  "sUrl": "",
+  "sEmptyTable": "表中无数据",
+  "sLoadingRecords": "数据载入中...",
+  "sInfoThousands": ",",
+  "oPaginate": {
+    "sFirst": "首页",
+    "sPrevious": "前页",
+    "sNext": "下页",
+    "sLast": "末页"
+  },
+  "oAria": {
+    "sSortAscending": "升序排列",
+    "sSortDescending": "降序排列"
+  }
+}

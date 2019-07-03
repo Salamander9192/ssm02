@@ -1,6 +1,5 @@
 package com.controller;
 
-import com.pojo.User;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,14 +15,21 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login(HttpServletRequest request, HttpServletResponse response){
-        String userName = request.getParameter("userName");
-        String userPassword = request.getParameter("userPassword");
-        User checkedUser = userService.findUser(userName);
-        if(userPassword.equals(checkedUser.getUserPassword())){
-            request.getSession().setAttribute("loginUser",checkedUser);
-            return "welcome";
-        }
-        else
-            return "error";
+        return "logintest";
+    }
+
+    @RequestMapping("/testLogin")
+    public String testLogin(HttpServletRequest request,HttpServletResponse response){
+        String inputUsername = request.getParameter("inputUsername");
+        String inputPassword = request.getParameter("inputPassword");
+        System.out.println("Got request!inputUsername="+inputUsername+",inputPassword="+inputPassword);
+//        User checkedUser = userService.findUser(inputUsername);
+////        if(inputPassword.equals(checkedUser.getUserPassword())){
+////            request.getSession().setAttribute("loginUser",checkedUser);
+////            return "manage";
+////        }
+////        else
+////            return "error";
+        return "manage";
     }
 }

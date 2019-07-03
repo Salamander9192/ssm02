@@ -2,4 +2,10 @@ F:\BatchControl\ssm02\src\main\java\com\service\impl\PaperServiceImpl.java
 F:\BatchControl\ssm02\src\main\java\com\controller\PaperController.java
 F:\BatchControl\ssm02\src\main\java\com\pojo\Paper.java
 F:\BatchControl\ssm02\src\main\java\com\service\PaperService.java
+F:\BatchControl\ssm02\src\main\java\com\controller\LoginController.java
+F:\BatchControl\ssm02\src\main\java\com\pojo\User.java
+F:\BatchControl\ssm02\src\main\java\com\service\impl\UserServiceImpl.java
+F:\BatchControl\ssm02\src\main\java\com\controller\UserController.java
 F:\BatchControl\ssm02\src\main\java\com\dao\PaperDao.java
+F:\BatchControl\ssm02\src\main\java\com\dao\UserDao.java
+F:\BatchControl\ssm02\src\main\java\com\service\UserService.java

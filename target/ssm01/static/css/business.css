@@ -1,0 +1,24 @@
+html {
+  font-family: verdana,geneva,arial,helvetica,sans-serif;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+.jumbotron .btn {
+  padding: 20px 24px;
+  font-size: 21px;
+}
+
+.jumbotron .h1 {
+  font-size: 40px;
+}

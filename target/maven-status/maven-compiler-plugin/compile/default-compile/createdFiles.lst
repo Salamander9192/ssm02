@@ -1,5 +1,11 @@
 com\dao\PaperDao.class
-com\pojo\Paper.class
 com\controller\PaperController.class
-com\service\impl\PaperServiceImpl.class
 com\service\PaperService.class
+com\controller\LoginController.class
+com\dao\UserDao.class
+com\pojo\User.class
+com\controller\UserController.class
+com\pojo\Paper.class
+com\service\impl\UserServiceImpl.class
+com\service\impl\PaperServiceImpl.class
+com\service\UserService.class
